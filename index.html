@@ -1,17 +1,11 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
   <title>Simple Speed Typer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <div class="container">
-    <div class="heading">Simple Speed Typer</div>
+    <div class="heading">Simple Speed Typing</div>
     <div class="header">
       <div class="wpm">
         <div class="header_text">WPM</div>
@@ -36,11 +30,10 @@
     </div>
 
     <div class="quote">Click on the area below to start the game.</div>
-    <textarea class="input_area" placeholder="start typing here..." oninput="getCurrentText()"
+    <textarea class="input_area" placeholder="start typing here..." oninput="processCurrentText()"
       onfocus="startGame()"></textarea>
     <button class="restart_btn" onclick="resetValues()">Restart</button>
   </div>
   <script src="game.js"></script>
 </body>
-
 </html>

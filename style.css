@@ -1,5 +1,5 @@
 body {
-  background-color: #27253d;
+  background-color: #fe9801;
   color: black;
   text-align: center;
 }
@@ -13,17 +13,17 @@ body {
 .heading {
   margin-bottom: 20px;
   font-size: 3rem;
-  color: gainsboro;
+  color: black;
 }
 
 .header {
   display: flex;
   align-items: center;
-  /* padding: 10px; */
 }
 
-.timer, .errors, .accuracy, .cpm, .wpm {
-  background-color: #7da87b;
+.timer, .errors,
+.accuracy, .cpm, .wpm {
+  background-color: #ccda46;
   height: 60px;
   width: 70px;
   margin: 8px;
@@ -33,7 +33,6 @@ body {
 }
 
 .cpm, .wpm  {
-  /* background-color: #f4ff61; */
   display: none;
 }
 
@@ -43,12 +42,14 @@ body {
   font-weight: 600;
 }
 
-.curr_time, .curr_errors, .curr_accuracy, .curr_cpm, .curr_wpm {
+.curr_time, .curr_errors,
+.curr_accuracy, .curr_cpm,
+.curr_wpm {
   font-size: 2.75rem;
 }
 
 .quote {
-  background-color: #7da87b;
+  background-color: #ccda46;
   font-size: 1.5rem;
   margin: 10px;
   padding: 25px;
